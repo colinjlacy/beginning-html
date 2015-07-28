@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>HTML!</title>
+</head>
+<body>
+<h1>Colin's Big Bad Page Full of Inputs!</h1>
+<hr/>
+
+<form action="#" method="get">
+
+	<h3>Text-Flavored Inputs</h3>
+
+	<label>Text input, like a user's name</label> <br/>
+	<input type="text" name="user_name"/> <br/>
+
+	<hr/>
+
+	<label>Number input, like a user's age</label> <br/>
+	<input type="number" name="user_age"/> <br/>
+
+	<hr/>
+
+	<label>Telephone input, which you can't see, but your phone can</label> <br/>
+	<input type="tel" name="user_phone"/> <br/>
+
+	<hr/>
+
+	<label>Email input, which again, your phone can see</label> <br/>
+	<input type="email" name="user_phone"/> <br/>
+
+	<hr/>
+
+	<h3>A Bombastic Textarea</h3>
+
+	<label>Where you put your life story</label> <br/>
+	<textarea name="user_life_story" cols="30" rows="10"></textarea>
+
+	<hr/>
+
+	<h3>Checks and Radios</h3>
+
+	<h4>Check whatever languages you know!</h4>
+	<label><input type="checkbox" name="user_languages" value="html"/> HTML</label> <br/>
+	<label><input type="checkbox" name="user_languages" value="css"/> CSS</label> <br/>
+	<label><input type="checkbox" name="user_languages" value="php"/> PHP</label> <br/>
+	<label><input type="checkbox" name="user_languages" value="javascript"/> JavaScript</label> <br/>
+	<label><input type="checkbox" name="user_languages" value="ruby"/> Ruby</label> <br/>
+
+	<hr/>
+
+	<h4>Let me know how you feel about HTML!</h4>
+	<label><input type="radio" name="user_preference" value="likes"/> I like HTML</label> <br/>
+	<label><input type="radio" name="user_preference" value="dislikes"/> I hate HTML</label> <br/>
+	<label><input type="radio" name="user_preference" value="huh"/> Wait, aren't we writing Ruby?!?</label> <br/>
+
+	<hr/>
+
+	<h3>Select (also improperly known as a drop-down)</h3>
+
+	<label>Which language is your favorite?</label> <br/>
+	<select name="user_favorite">
+		<option value="html">HTML</option>
+		<option value="css">CSS</option>
+		<option value="php">PHP</option>
+		<option value="javascript">JavaScript</option>
+		<option value="ruby">Ruby</option>
+	</select>
+
+	<hr/>
+
+	<!--My submit button will send off my form!-->
+	<button type="submit">Submit!</button>
+</form>
+
+</body>
+</html>
